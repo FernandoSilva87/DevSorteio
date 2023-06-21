@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    left: 728px;
+    margin-top: 25px;
+    }
+
+body {
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 5px;
+    color: yellow;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+h2, p {    
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
+
+input {
+    width: 250px;
+    height: 74px;    
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.input-min {
+    margin-right: 62px;
+}
+
+button {
+    width: 200px;
+    height: 72px;
+    background: #AEC346;
+    box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    background-color: greenyellow;
+    box-shadow: 0 0 5px yellow, 0 0 25px yellow, 0 0 50px yellow, 0 0 200px yellow ;
+}
+
+button:active {
+    opacity: 0.2;
+}
+
+@media (max-width: 600px) {
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    input {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-min {
+        margin-right: 0; 
+        padding-left: 110px;
+        margin-bottom: 15px;
+    }
+
+    .input-max {
+        padding-left: 85px;
+    }
+
+    h2, p {
+        margin-top: 20px;
+
+    }
+}
